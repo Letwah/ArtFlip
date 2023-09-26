@@ -1,0 +1,25 @@
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+div > h2 {
+  display: flex;
+  padding-right: 2rem;
+  justify-content: flex-end;
+}
+
+div > h3 {
+  display: flex;
+  padding: 0 0 2rem 2rem;
+  justify-content: flex-start;
+}
+
+img.mainLogo {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30vh auto;
+}
