@@ -6,7 +6,7 @@
 
 div > h2 {
   display: flex;
-  padding-right: 2rem;
+  padding: 2rem 2rem 0 0;
   justify-content: flex-end;
 }
 
