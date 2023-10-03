@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import Search from "./components/Search";
+import Search from "../components/Search";
 
-import {
-  selectCatalogue,
-  selectSearch,
-  swapEnquiry,
-} from "../features/appSlice";
-import "./catalogue/catalogue.css";
+import { selectCatalogue, selectSearch, swapEnquiry } from "../slices/appSlice";
+
+import "../styles/search.css";
 
 const BrowseCatalogue = () => {
   const catalogue = useSelector(selectCatalogue);
@@ -35,6 +32,21 @@ const BrowseCatalogue = () => {
           <Search />
         </div>
         <div className="catalogueGrid">
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+          <div className="blank"></div>
+
           {filtered.map((item) => {
             console.log(`url("${item.image}")`);
             if (!item.show) {

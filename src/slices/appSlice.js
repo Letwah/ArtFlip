@@ -6,8 +6,8 @@ import catalogue from "../store/catalogue";
 const swapItemIdsFromDisc = get("swapItemIdsFromDisc");
 
 const initialState = {
-  page: SWAP,
-  catalogue: ["catalogue"], //empty array to stop comp crashing before data arrived.
+  page: WELCOME,
+  catalogue: catalogue,
   swapItemIds: swapItemIdsFromDisc ? swapItemIdsFromDisc : [],
   search: "",
 };
@@ -36,6 +36,7 @@ const appSlice = createSlice({
 export const { setPage, setSearch, swapEnquiry } = appSlice.actions;
 
 export const selectPage = (state) => state.app.page;
+export const selectSearch = (state) => state.app.page;
 export const selectCatalogue = (state) => state.app.catalogue;
 
 export default appSlice.reducer;

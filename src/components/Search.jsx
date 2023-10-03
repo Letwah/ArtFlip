@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { validate } from "../../validation";
+import { validate } from "../validation";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearch, selectSearch } from "../../features/appSlice";
+import { setSearch, selectSearch } from "../slices/appSlice";
 
 import "../styles/search.css";
 
