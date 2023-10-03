@@ -34,57 +34,57 @@ const BrowseCatalogue = () => {
         <div className="catalogueGrid">
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
           <div className="blank">
             <div className="saveIconOnImage">
-              <img src="./assets/icons/Bookmark.svg"></img>
+              <img src="./assets/icons/save.svg"></img>
             </div>
           </div>
 

@@ -14,9 +14,14 @@
   padding: 0px;
 }
 
+.bottomNav {
+  display: block;
+}
+
 .appContainer {
   max-width: 600px;
   margin: 2vh auto;
+  height: 100vh;
 }
 
 :root {

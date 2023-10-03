@@ -1,3 +1,7 @@
+bottomNav {
+  display: none;
+}
+
 .welcomeContainer {
   display: flex;
   flex-direction: column;

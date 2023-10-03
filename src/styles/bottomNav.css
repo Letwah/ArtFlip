@@ -1,0 +1,14 @@
+.bottomNavContainer {
+  border: 2px solid black;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.161);
+  bottom: 2vh;
+}
+
+.bottomNav {
+  max-width: 600px;
+}
