@@ -32,20 +32,62 @@ const BrowseCatalogue = () => {
           <Search />
         </div>
         <div className="catalogueGrid">
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
-          <div className="blank"></div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+          <div className="blank">
+            <div className="saveIconOnImage">
+              <img src="./assets/icons/Bookmark.svg"></img>
+            </div>
+          </div>
+
           {/* 
           {filtered.map((item) => {
             console.log(`url("${item.image}")`);
