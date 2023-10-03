@@ -1,13 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { SWAP, WELCOME } from "../store/types";
 import { save, get } from "../persistance";
-import catalogue from "../store/catalogue";
 
 const swapItemIdsFromDisc = get("swapItemIdsFromDisc");
 
 const initialState = {
   page: WELCOME,
-  catalogue: catalogue,
+  catalogue: [],
   swapItemIds: swapItemIdsFromDisc ? swapItemIdsFromDisc : [],
   search: "",
 };
