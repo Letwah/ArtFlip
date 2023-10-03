@@ -6,7 +6,7 @@ const Welcome = () => {
     <>
       <div className="welcomeContainer">
         <h2> MENU</h2>
-        <img src="./assets/images/ArtFlipLogo.png" className="mainLogo"></img>
+        <img src="./assets/branding/ArtFlipLogo.png" className="mainLogo"></img>
         <h3> DATE</h3>
       </div>
     </>
