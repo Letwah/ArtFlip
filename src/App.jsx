@@ -9,11 +9,13 @@ import BrowseCatalogue from "./pages/BrowseCatalogue";
 const App = () => {
   return (
     <>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/browse-catalogue" element={<BrowseCatalogue />} />
-        </Routes>
+      <div className="app">
+        <div className="appContainer">
+          <Routes>
+            <Route path="/" element={<Welcome />} />
+            <Route path="/browse-catalogue" element={<BrowseCatalogue />} />
+          </Routes>
+        </div>
       </div>
     </>
   );

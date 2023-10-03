@@ -2,36 +2,18 @@
   background-color: var(--background-color);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
   background-color: transparent;
   gap: 2em;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .catalogueGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 0.85fr));
   justify-content: center;
-  grid-template-rows: auto;
   background-color: transparent;
   gap: 2em;
-}
-
-.catalogueGrid.card {
-  margin-left: 2rem;
-}
-
-.imageContainer {
-  position: relative;
-  border: var(--border-width) solid var(--border-color);
-  box-shadow: 0.5em 0.5em 0em;
-  width: 90%;
-  height: auto;
-  overflow: hidden;
-  margin: 0.2rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
 }
 
 .blank {

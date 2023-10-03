@@ -46,7 +46,7 @@ const BrowseCatalogue = () => {
           <div className="blank"></div>
           <div className="blank"></div>
           <div className="blank"></div>
-
+          {/* 
           {filtered.map((item) => {
             console.log(`url("${item.image}")`);
             if (!item.show) {
@@ -84,7 +84,7 @@ const BrowseCatalogue = () => {
                 </div>
               </section>
             );
-          })}
+          })} */}
         </div>
       </section>
     </>
